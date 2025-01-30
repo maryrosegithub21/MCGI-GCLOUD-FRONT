@@ -1,0 +1,2032 @@
+
+/* === You can get this at google FA === */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* === main set up of Body 2 === */
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200 1000;
+    
+ }
+ /* === color for the whole body 2 === */
+:root {
+    --textMainColor: #1b05c1;
+    --textColorBody2: rgb(114, 113, 113);
+    --backgroundColorBody2 : white;
+    --buttonborder: rgb(15, 163, 189);
+    --secondaryBackgroundBody2 : rgb(232, 232, 232);
+
+    --buttoncolor: rgb(18, 5, 253);
+    --textColorbutton: white;
+
+
+    
+
+ } 
+ 
+ @media only screen and (max-width: 246px){
+    /*  === container of body 2 === */
+   .parentDivBody2MRA{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       width:100%;
+       height: 25rem;
+       background-color: var(--backgroundColorBody2);
+       color: var(--textColorBody2);
+       margin-top: 60rem;
+       bottom: 2rem;
+      
+   }
+   /* === for both text at top / images and button below ===  */
+   .childDivImageBody2MRA {
+   display: flex;
+   align-items: center;
+   width:90%;
+   flex-direction: column;
+ 
+   }
+
+   .childDivBody2MRA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+    margin-bottom: 1rem;
+    margin-left: 0.3rem;
+    justify-content: center;
+    
+    }
+
+   /*===== images ==== */
+.imgCreativity{
+    height:100px;
+    width:150px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    resize: both; 
+   overflow: auto; 
+   max-width: 100%; 
+   max-height: 100%;
+   border-radius: 10px;
+}
+
+.imgCritical{
+    height:100px;
+    width:150px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+    border-radius: 10px;
+
+}
+.imgCommunication{
+    height:100px;
+    width:150px;
+    margin-right:15px;
+    margin-bottom: 15px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+    border-radius: 10px;
+
+}
+.imgTechnology{
+    height:100px;
+    width:150px;
+    margin-right: 15px;
+     margin-bottom: 15px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+    border-radius: 10px;
+
+}
+   
+   /* === for both text at the top === */
+   .childH2Body2MRA{
+       display: flex;
+       margin-top: 3.5rem;
+       margin-bottom: 1rem;
+       position:relative;
+       justify-content: center;
+       width: 95%;
+       font-size: 0.7rem;
+       text-align: center;
+
+   
+      
+   }
+   
+   /* ====for all the button on the bottom part===== */
+   .LearningPathwaysButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       /* margin-right: 1rem; */
+       margin-bottom: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+       width: 12rem;
+   }
+   .IR4ButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       /* margin-right: 1rem; */
+       margin-bottom: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+       width: 12rem;
+   }
+   .KeyCompetenciesButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       /* margin-right: 1rem; */
+       margin-bottom: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+       width: 12rem;
+   }
+   .DigitalTechnologiesButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       /* margin-right: 1rem; */
+       margin-bottom: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+       width: 12rem;
+   }
+   /* ^^^ for all the button on the bottom part ^^^*/
+   /* === For the enchance key competencies === */
+   .childEnchanceDivBody2MRA{
+       display: flex;
+       flex-direction: column;
+       background-color:var(--secondaryBackgroundBody2);
+       color:var(--textColorBody2);
+       width:100%;
+       padding-left: 0.5rem;
+       padding-right: 0.5rem;
+       padding-top: 0.5rem;
+       margin-bottom: 2rem;
+       justify-content: center;
+       font-size: 0.5rem;
+   }
+   .descriptionEnchanceBody2MRA {
+   resize: both; 
+   overflow: auto; 
+     max-width: 100%; 
+   max-height: 100%; 
+   margin-bottom: 1rem;
+
+   }
+   .descriptionEnchancePBody2MRA{
+   display: flex;
+   position:relative;
+text-align: justify;
+
+
+   }
+   /* ^^^ For the enchance key competencies ^^^ */
+   
+   
+   /*  ==== For six Row on the page start from banner the what are you waiting for === */ 
+   /* ==== whole container ==== */
+   .classDivConatinerBody2MRA {
+   display: flex;
+   height: 25rem;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column; 
+   background-color:var(--backgroundColorBody2);
+   }
+   
+   /*==== Left Part photos === */
+   .classRoomPhoto{
+       width: 90%;
+       height: 400px;
+       resize: both; 
+      overflow: auto; 
+        max-width: 100%; 
+      max-height: 100%; 
+    
+   }
+   
+   /* === container right side === */
+   .classroomInquiryBody2RightMRA{
+   width: 90%;
+
+   
+   
+   }
+   /* right details */
+   .waitingH1{
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+   
+   
+}
+   .startH1{
+    font-size: 1rem;
+    width: 100%;
+    text-align: justify;
+    
+    
+   }
+   .informationP{
+   font-size: 0.8rem;
+   width: 100%;
+   text-align: justify;
+   }
+
+   /* === Button Container Style  === */
+   .btnDivBody2classroomMRA{
+       display: flex;
+       width: 100%;
+   
+   }
+   
+   
+   .SignUpButtonBody2MRA{
+       cursor: pointer;
+       background-color: var(--buttoncolor);
+       outline: none;
+       margin-right: 1rem;
+       height: 2rem;
+       color: var(--textColorbutton);
+       width: 200px;
+       border-radius: 0.5rem;
+       left:0;
+       font-size: 0.6rem;
+       align-items: center;
+   }
+   }
+ 
+ @media only screen and (min-width: 246px){
+    /*  === container of body 2 === */
+   .parentDivBody2MRA{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       width:100%;
+       height: 25rem;
+       background-color: var(--backgroundColorBody2);
+       color: var(--textColorBody2);
+       margin-top: 57rem;
+       bottom: 2rem;
+      
+   }
+   /* === for both text at top / images and button below ===  */
+   .childDivImageBody2MRA {
+   display: flex;
+   align-items: center;
+   width:90%;
+   flex-direction: column;
+ 
+   }
+
+   .childDivBody2MRA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    justify-content: center;
+    
+    }
+
+   /*===== images ==== */
+.imgCreativity{
+    height:105px;
+    width:150px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    resize: both; 
+   overflow: auto; 
+   max-width: 100%; 
+   max-height: 100%;
+   border-radius: 10px;
+}
+.imgCritical{
+    height:100px;
+    width:150px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+    border-radius: 10px;
+
+}
+.imgCommunication{
+    height:100px;
+    width:150px;
+    margin-right:15px;
+    margin-bottom: 15px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+    border-radius: 10px;
+
+}
+.imgTechnology{
+    height:105px;
+    width:150px;
+    margin-right: 15px;
+     margin-bottom: 15px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+    border-radius: 10px;
+
+}
+   
+   /* === for both text at the top === */
+   .childH2Body2MRA{
+       display: flex;
+       margin-top: 3.5rem;
+       margin-bottom: 1rem;
+       position:relative;
+       justify-content: center;
+       width: 95%;
+       font-size: 0.7rem;
+       text-align: center;
+
+   
+      
+   }
+   
+   /* ====for all the button on the bottom part===== */
+   .LearningPathwaysButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       margin-right: 1rem;
+       margin-bottom: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+       width: 10rem;
+   }
+   .IR4ButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 1rem;
+       margin-bottom: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+       width: 10rem;
+
+   }
+   .KeyCompetenciesButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 1rem;
+       margin-bottom: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+       width: 10rem;
+
+   }
+   .DigitalTechnologiesButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 1rem;
+       margin-bottom: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+       width: 10rem;
+
+   }
+   /* ^^^ for all the button on the bottom part ^^^*/
+   /* === For the enchance key competencies === */
+   .childEnchanceDivBody2MRA{
+       display: flex;
+       flex-direction: column;
+       background-color:var(--secondaryBackgroundBody2);
+       color:var(--textColorBody2);
+       width:100%;
+       padding-left: 3rem;
+       padding-right: 3rem;
+       padding-top: 0.5rem;
+       margin-bottom: 2rem;
+       justify-content: center;
+       font-size: 0.4rem;
+   }
+   .descriptionEnchanceBody2MRA {
+    resize: both; 
+    overflow: auto; 
+      max-width: 100%; 
+    max-height: 100%; 
+    margin-bottom: 1rem;
+   }
+   .descriptionEnchancePBody2MRA{
+   display: flex;
+   position:relative;
+  text-align: justify;
+   }
+   /* ^^^ For the enchance key competencies ^^^ */
+   
+   
+   /*  ==== For six Row on the page start from banner the what are you waiting for === */ 
+   /* ==== whole container ==== */
+   .classDivConatinerBody2MRA {
+   display: flex;
+   height: 25rem;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column; 
+   background-color:var(--backgroundColorBody2);
+   }
+   
+   /*==== Left Part photos === */
+   .classRoomPhoto{
+       width: 90%;
+       height: 400px;
+       resize: both; 
+      overflow: auto; 
+        max-width: 100%; 
+      max-height: 100%; 
+    
+   }
+   
+   /* === container right side === */
+   .classroomInquiryBody2RightMRA{
+   width: 90%;
+
+   
+   
+   }
+   /* right details */
+   .waitingH1{
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+   
+}
+   .startH1{
+    font-size: 1rem;
+    width: 100%;
+    text-align: justify;
+    
+   }
+   .informationP{
+   font-size: 0.8rem;
+   width: 100%;
+    text-align: justify; 
+}
+
+   /* === Button Container Style  === */
+   .btnDivBody2classroomMRA{
+       display: flex;
+       width: 100%;
+       justify-content: center;  
+   }
+  
+   
+   .SignUpButtonBody2MRA{
+       cursor: pointer;
+       background-color: var(--buttoncolor);
+       outline: none;
+       margin-right: 1rem;
+       height: 2rem;
+       color: var(--textColorbutton);
+       width: 200px;
+       border-radius: 0.5rem;
+       left:0;
+       font-size: 0.6rem;
+       align-items: center;
+   }
+   }
+ 
+ @media only screen and (min-width: 314px){
+    /*  === container of body 2 === */
+   .parentDivBody2MRA{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       width:100%;
+       height: 25rem;
+       background-color: var(--backgroundColorBody2);
+       color: var(--textColorBody2);
+       margin-top: 70rem;
+       bottom: 2rem;
+      
+   }
+   /* === for both text at top / images and button below ===  */
+   .childDivImageBody2MRA {
+   display: flex;
+   align-items: center;
+   width:90%;
+   flex-direction: column;
+ 
+   }
+
+   .childDivBody2MRA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:90%;
+    margin-bottom: 1rem;
+    
+    
+    }
+
+   /*===== images ==== */
+.imgCreativity{
+    height:105px;
+    width:150px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    resize: both; 
+   overflow: auto; 
+   max-width: 100%; 
+   max-height: 100%;
+}
+.imgCritical{
+    height:100px;
+    width:150px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+}
+.imgCommunication{
+    height:100px;
+    width:150px;
+    margin-right:15px;
+    margin-bottom: 15px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+}
+.imgTechnology{
+    height:105px;
+    width:150px;
+    margin-right: 15px;
+     margin-bottom: 15px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+}
+   
+   /* === for both text at the top === */
+   .childH2Body2MRA{
+       display: flex;
+       margin-top: 3.5rem;
+       margin-bottom: 1rem;
+       position:relative;
+       justify-content: center;
+       width: 95%;
+       font-size: 0.7rem;
+       text-align: center;
+
+   
+      
+   }
+   
+   /* ====for all the button on the bottom part===== */
+   .LearningPathwaysButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       margin-right: 1rem;
+       margin-bottom: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+   }
+   .IR4ButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 1rem;
+       margin-bottom: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+
+   }
+   .KeyCompetenciesButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 1rem;
+       margin-bottom: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+
+   }
+   .DigitalTechnologiesButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 1rem;
+       margin-bottom: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+
+   }
+   /* ^^^ for all the button on the bottom part ^^^*/
+   /* === For the enchance key competencies === */
+   .childEnchanceDivBody2MRA{
+       display: flex;
+       flex-direction: column;
+       background-color:var(--secondaryBackgroundBody2);
+       color:var(--textColorBody2);
+       width:100%;
+       padding-left: 3rem;
+       padding-right: 3rem;
+       padding-top: 1.5rem;
+       margin-bottom: 3rem;
+       justify-content: center;
+       font-size: 0.5rem;
+   }
+   .descriptionEnchanceBody2MRA {
+    resize: both; 
+    overflow: auto; 
+      max-width: 100%; 
+    max-height: 100%; 
+    margin-bottom: 1rem;
+   }
+   .descriptionEnchancePBody2MRA{
+   display: flex;
+   position:relative;
+   width: 100%;
+   }
+   /* ^^^ For the enchance key competencies ^^^ */
+   
+   
+   /*  ==== For six Row on the page start from banner the what are you waiting for === */ 
+   /* ==== whole container ==== */
+   .classDivConatinerBody2MRA {
+   display: flex;
+   height: 25rem;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column; 
+   background-color:var(--backgroundColorBody2);
+   }
+   
+   /*==== Left Part photos === */
+   .classRoomPhoto{
+       width: 90%;
+       height: 400px;
+       resize: both; 
+      overflow: auto; 
+        max-width: 100%; 
+      max-height: 100%; 
+    
+   }
+   
+   /* === container right side === */
+   .classroomInquiryBody2RightMRA{
+   width: 90%;
+
+   
+   
+   }
+   /* right details */
+   .waitingH1{
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+   
+   
+}
+   .startH1{
+    font-size: 1rem;
+    width: 100%;
+    text-align: justify;
+    
+   }
+   .informationP{
+   font-size: 0.8rem;
+   width: 100%;
+    text-align: justify;
+   }
+
+   /* === Button Container Style  === */
+   .btnDivBody2classroomMRA{
+       display: flex;
+       width: 100%;
+   
+   }
+   
+   
+   
+   
+   .SignUpButtonBody2MRA{
+       cursor: pointer;
+       background-color: var(--buttoncolor);
+       outline: none;
+       margin-right: 1rem;
+       height: 2rem;
+       color: var(--textColorbutton);
+       width: 200px;
+       border-radius: 0.5rem;
+       left:0;
+       font-size: 0.6rem;
+       align-items: center;
+   }
+   }
+
+ @media only screen and (min-width: 481px){
+    /*  === container of body 2 === */
+   .parentDivBody2MRA{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       width:100%;
+       height: 25rem;
+       background-color: var(--backgroundColorBody2);
+       color: var(--textColorBody2);
+       margin-top: 35rem;
+       bottom: 2rem;
+      
+   }
+   /* === for both text at top / images and button below ===  */
+   .childDivImageBody2MRA {
+   display: flex;
+   justify-content: center;
+   width:90%;
+   position: relative;
+    flex-direction: row;
+   }
+
+   .childDivBody2MRA {
+    display: flex;
+    justify-content: center;
+    width:90%;
+    margin-bottom: 1rem;
+    position: relative;
+    flex-direction: row;
+    }
+
+   /*===== images ==== */
+.imgCreativity{
+    height:105px;
+    width:150px;
+    margin-right: 15px;
+    margin-top: 4px;
+    resize: both; 
+   overflow: auto; 
+   max-width: 100%; 
+   max-height: 100%;
+}
+.imgCritical{
+    height:100px;
+    width:150px;
+    margin-right: 15px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+}
+.imgCommunication{
+    height:100px;
+    width:150px;
+    margin-right:15px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+}
+.imgTechnology{
+    height:105px;
+    width:150px;
+    margin-right: 15px;
+    margin-top: 4px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+}
+   
+   /* === for both text at the top === */
+   .childH2Body2MRA{
+       display: flex;
+       margin-top: 3.5rem;
+       margin-bottom: 1rem;
+       position:relative;
+       justify-content: center;
+       width: 95%;
+       font-size: 0.7rem;
+       text-align: center;
+
+   
+      
+   }
+   
+   /* ====for all the button on the bottom part===== */
+   .LearningPathwaysButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       margin-right: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+   }
+   .IR4ButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+
+   }
+   .KeyCompetenciesButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+
+   }
+   .DigitalTechnologiesButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+
+   }
+   /* ^^^ for all the button on the bottom part ^^^*/
+   /* === For the enchance key competencies === */
+   .childEnchanceDivBody2MRA{
+       display: flex;
+       flex-direction: column;
+       background-color:var(--secondaryBackgroundBody2);
+       color:var(--textColorBody2);
+       width:100%;
+       padding-left: 3rem;
+       padding-right: 3rem;
+       padding-top: 1.5rem;
+       margin-bottom: 3rem;
+       justify-content: center;
+       font-size: 0.7rem;
+   }
+   .descriptionEnchanceBody2MRA {
+    resize: both; 
+   overflow: auto; 
+     max-width: 100%; 
+   max-height: 100%; 
+   margin-bottom: 1rem;
+   }
+   .descriptionEnchancePBody2MRA{
+   display: flex;
+   position:relative;
+   text-align: justify;
+   }
+   /* ^^^ For the enchance key competencies ^^^ */
+   
+   
+   /*  ==== For six Row on the page start from banner the what are you waiting for === */ 
+   /* ==== whole container ==== */
+   .classDivConatinerBody2MRA {
+   display: flex;
+   height: 25rem;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 1rem;
+   padding-left: 3rem;
+   padding-right: 3rem;
+   padding-bottom: 2rem;
+   flex-direction: row;
+   background-color:var(--backgroundColorBody2);
+   }
+   
+   /*==== Left Part photos === */
+   .classRoomPhoto{
+       width: 50%;
+       height: 270px;
+       resize: both; 
+      overflow: auto; 
+        max-width: 100%; 
+      max-height: 100%; 
+    
+   }
+   
+   /* === container right side === */
+   .classroomInquiryBody2RightMRA{
+   width: 50%;
+   padding-left: 2rem;
+   
+   
+   }
+   /* right details */
+   .waitingH1{
+    font-size: 0.8rem;
+   }
+   .startH1{
+    font-size: 0.7rem;
+    
+   }
+   .informationP{
+   font-size: 0.6rem;
+   }
+
+   /* === Button Container Style  === */
+   .btnDivBody2classroomMRA{
+       margin-top: 3rem;
+       display: flex;
+       width: 100%;
+   
+   }
+   
+ 
+   
+   
+   .SignUpButtonBody2MRA{
+       cursor: pointer;
+       background-color: var(--buttoncolor);
+       outline: none;
+       margin-right: 1rem;
+       height: 2rem;
+       color: var(--textColorbutton);
+       width: 200px;
+       border-radius: 0.5rem;
+       left:0;
+       font-size: 0.6rem;
+       align-items: center;
+   }
+   }
+ @media only screen and (min-width: 611px){
+    /*  === container of body 2 === */
+   .parentDivBody2MRA{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       width:100%;
+       height: 25rem;
+       background-color: var(--backgroundColorBody2);
+       color: var(--textColorBody2);
+       margin-top: 35rem;
+       bottom: 2rem;
+
+      
+   }
+   /* === for both text at top / images and button below ===  */
+   .childDivImageBody2MRA {
+   display: flex;
+   justify-content: center;
+   width:90%;
+   position: relative;
+ flex-direction: row;
+   }
+
+   .childDivBody2MRA {
+    display: flex;
+    justify-content: center;
+    width:90%;
+    margin-bottom: 1rem;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    }
+
+   /*===== images ==== */
+.imgCreativity{
+    height:105px;
+    width:150px;
+    margin-right: 15px;
+    margin-top: 5px;
+    resize: both; 
+   overflow: auto; 
+   max-width: 100%; 
+   max-height: 100%;
+}
+.imgCritical{
+    height:100px;
+    width:150px;
+    margin-right: 15px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+}
+.imgCommunication{
+    height:100px;
+    width:150px;
+    margin-right:15px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+}
+.imgTechnology{
+    height:105px;
+    width:150px;
+    margin-right: 15px;
+    margin-top: 5px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+}
+   
+   /* === for both text at the top === */
+   .childH2Body2MRA{
+       display: flex;
+       margin-top: 4rem;
+       margin-bottom: 1rem;
+       position:relative;
+       justify-content: center;
+       width: 80%;
+       font-size: 0.8rem;
+       text-align: center;
+
+   
+      
+   }
+   
+   /* ====for all the button on the bottom part===== */
+   .LearningPathwaysButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       margin-right: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+   }
+   .IR4ButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+
+   }
+   .KeyCompetenciesButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+
+   }
+   .DigitalTechnologiesButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.6rem;
+
+   }
+   /* ^^^ for all the button on the bottom part ^^^*/
+   /* === For the enchance key competencies === */
+   .childEnchanceDivBody2MRA{
+       display: flex;
+       flex-direction: column;
+       background-color:var(--secondaryBackgroundBody2);
+       color:var(--textColorBody2);
+       width:100%;
+       padding-left: 3rem;
+       padding-right: 3rem;
+       padding-top: 1.5rem;
+       margin-bottom: 3rem;
+       justify-content: center;
+       font-size: 0.7rem;
+   }
+   .descriptionEnchanceBody2MRA {
+    resize: both; 
+    overflow: auto; 
+      max-width: 100%; 
+    max-height: 100%; 
+    margin-bottom: 1rem;
+ 
+   }
+   .descriptionEnchancePBody2MRA{
+   display: flex;
+   position:relative;
+   text-align: justify;
+   }
+   /* ^^^ For the enchance key competencies ^^^ */
+   
+   
+   /*  ==== For six Row on the page start from banner the what are you waiting for === */ 
+   /* ==== whole container ==== */
+   .classDivConatinerBody2MRA {
+   display: flex;
+   height: 25rem;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 1rem;
+   padding-left: 3rem;
+   padding-right: 3rem;
+   padding-bottom: 2rem;
+   flex-direction: row;
+   background-color:var(--backgroundColorBody2);
+   }
+   
+   /*==== Left Part photos === */
+   .classRoomPhoto{
+       width: 50%;
+       height: 270px;
+       resize: both; 
+      overflow: auto; 
+        max-width: 100%; 
+      max-height: 100%; 
+    
+   }
+   
+   /* === container right side === */
+   .classroomInquiryBody2RightMRA{
+   width: 50%;
+   padding-left: 2rem;
+   
+   
+   }
+   /* right details */
+   .waitingH1{
+    font-size: 1rem;
+   }
+   .startH1{
+    font-size: 0.9rem;
+    
+   }
+   .informationP{
+   font-size: 0.7rem;
+   }
+
+   /* === Button Container Style  === */
+   .btnDivBody2classroomMRA{
+       margin-top: 3rem;
+       display: flex;
+       width: 100%;
+   
+   }
+   
+  
+   
+   .SignUpButtonBody2MRA{
+       cursor: pointer;
+       background-color: var(--buttoncolor);
+       outline: none;
+       margin-right: 1rem;
+       height: 2rem;
+       color: var(--textColorbutton);
+       width: 200px;
+       border-radius: 0.5rem;
+       left:0;
+       font-size: 0.6rem;
+       align-items: center;
+   }
+   }
+ @media only screen and (min-width: 768px){
+    /*  === container of body 2 === */
+   .parentDivBody2MRA{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       width:100%;
+       height: 25rem;
+       background-color: var(--backgroundColorBody2);
+       color: var(--textColorBody2);
+       margin-top: 35rem;
+       bottom: 2rem;
+      
+   }
+   /* === for both text at top / images and button below ===  */
+   .childDivImageBody2MRA {
+   display: flex;
+   justify-content: center;
+   width:100%;
+   position: relative;
+ flex-direction: row;
+   }
+
+   .childDivBody2MRA {
+    display: flex;
+    justify-content: center;
+    width:90%;
+   flex-direction: row;
+    margin-bottom: 1rem;
+    position: relative;
+    font-size: 0.8rem;
+    }
+
+   /*===== images ==== */
+.imgCreativity{
+    height:100px;
+    width:150px;
+    margin-right: 20px;
+    margin-top: 7px;
+    resize: both; 
+   overflow: auto; 
+   max-width: 100%; 
+   max-height: 100%;
+   border-radius: 10px;
+}
+.imgCritical{
+    height:100px;
+    width:150px;
+    margin-right: 20px;
+    margin-top: 10px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+    border-radius: 10px;
+    margin-top: 9px;
+}
+.imgCommunication{
+    height:100px;
+    width:150px;
+    margin-right:20px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+    border-radius: 10px;
+    margin-top: 9px;
+}
+.imgTechnology{
+    height:100px;
+    width:150px;
+    margin-right: 20px;
+    margin-top:7px;
+    resize: both; 
+    overflow: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+    border-radius: 10px;
+}
+   
+   /* === for both text at the top === */
+   .childH2Body2MRA{
+       display: flex;
+       margin-top: 4rem;
+       margin-bottom: 1rem;
+       position:relative;
+       justify-content: center;
+       width: 80%;
+       font-size: 1rem;
+       margin-left: 2rem;
+       margin-right: 2rem;
+       text-align: center;
+
+   
+      
+   }
+   
+   /* ====for all the button on the bottom part===== */
+   .LearningPathwaysButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       margin-right: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.7rem;
+   }
+   .IR4ButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.7rem;
+
+   }
+   .KeyCompetenciesButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.7rem;
+
+   }
+   .DigitalTechnologiesButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 1rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 0.7rem;
+
+   }
+   /* ^^^ for all the button on the bottom part ^^^*/
+   /* === For the enchance key competencies === */
+   .childEnchanceDivBody2MRA{
+       display: flex;
+       flex-direction: column;
+       background-color:var(--secondaryBackgroundBody2);
+       color:var(--textColorBody2);
+       width:100%;
+       padding-left: 3rem;
+       padding-right: 3rem;
+       padding-top: 2rem;
+       margin-bottom: 3rem;
+       justify-content: center;
+       font-size: 0.7rem;
+   }
+   .descriptionEnchanceBody2MRA {
+    resize: both; 
+    overflow: auto; 
+      max-width: 100%; 
+    max-height: 100%; 
+    margin-bottom: 1rem;
+ 
+   }
+   .descriptionEnchancePBody2MRA{
+   display: flex;
+   position:relative;
+   text-align: justify;
+   }
+   /* ^^^ For the enchance key competencies ^^^ */
+   
+   
+   /*  ==== For six Row on the page start from banner the what are you waiting for === */ 
+   /* ==== whole container ==== */
+   .classDivConatinerBody2MRA {
+   display: flex;
+   height: 25rem;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+     margin-bottom: 1rem;
+   padding-left: 3rem;
+   padding-right: 3rem;
+   padding-bottom: 2rem;
+   flex-direction: row;
+   background-color:var(--backgroundColorBody2);
+   }
+   
+   /*==== Left Part photos === */
+   .classRoomPhoto{
+       width: 50%;
+       height: 300px;
+       resize: both; 
+      overflow: auto; 
+        max-width: 100%; 
+      max-height: 100%; 
+    
+   }
+   
+   /* === container right side === */
+   .classroomInquiryBody2RightMRA{
+   width: 60%;
+   padding-left: 5rem;
+   
+   
+   }
+   /* right details */
+   .waitingH1{
+    font-size: 1.5rem;
+   }
+   .startH1{
+    font-size: 1rem;
+   }
+   .informationP{
+    font-size: 0.8rem;
+
+   }
+   /* === Button Container Style  === */
+   .btnDivBody2classroomMRA{
+       margin-top: 3rem;
+       display: flex;
+       width: 100%;
+   
+   }
+   
+   
+   
+   
+   .SignUpButtonBody2MRA{
+       cursor: pointer;
+       background-color: var(--buttoncolor);
+       outline: none;
+       padding: 0rem 0.5rem;
+       margin: 0rem 1rem;
+       height: 2rem;
+       color: var(--textColorbutton);
+       width: 150px;
+       border-radius: 0.5rem;
+       left:0;
+       font-size: 0.8rem;
+   }
+   }
+ @media only screen and (min-width: 1024px){
+ /*  === container of body 2 === */
+.parentDivBody2MRA{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    height: 25rem;
+    background-color: var(--backgroundColorBody2);
+    color: var(--textColorBody2);
+    margin-top: 24rem;
+    bottom: 2rem;
+   
+}
+/* === for both text at top / images and button below ===  */
+.childDivBody2MRA {
+display: flex;
+justify-content: center;
+align-items: center;
+width:90%;
+margin-top: 1rem;
+margin-bottom: 1rem;
+position: relative;
+margin-left: 3rem;
+font-size: 1rem;
+flex-direction: row;
+}
+.childDivImageBody2MRA {
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    flex-direction: row;
+    }
+   /*===== images ==== */
+   .imgCreativity{
+    height:200px;
+    width:250px; 
+    margin-left: 30px;
+    margin-right: 30px;
+    resize: both; 
+   overflow: auto; 
+   max-width: 100%; 
+   max-height: 100%;
+   border-radius: 10px;
+ 
+}
+
+.imgCritical{
+    height:200px;
+    width:250px;
+    margin-right: 30px;
+    resize: both; 
+   overflow: auto; 
+   max-width: 100%; 
+   max-height: 100%;
+   border-radius: 10px;
+   margin-top: 10px;
+}
+.imgCommunication{
+    height:200px;
+    width:250px;
+    margin-right: 30px;
+    resize: both; 
+   overflow: auto; 
+   max-width: 100%; 
+   max-height: 100%;
+   border-radius: 10px;
+   margin-top: 10px;
+}
+.imgTechnology{
+    height:200px;
+    width:250px;
+    margin-right: 30px;
+    resize: both; 
+   overflow: auto; 
+   max-width: 100%; 
+   max-height: 100%;
+   border-radius: 10px;
+  
+}
+/* === for both text at the top === */
+.childH2Body2MRA{
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    width: 80%;
+   
+}
+
+/* ====for all the button on the bottom part===== */
+.LearningPathwaysButtonBody2MRA{
+    border: 0.2rem solid var(--buttonborder);
+    color: var(--textColorBody2);
+    border-radius: 0.3rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    margin-right: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.IR4ButtonBody2MRA{
+    border: 0.2rem solid var(--buttonborder);
+    color: var(--textColorBody2);
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.KeyCompetenciesButtonBody2MRA{
+    border: 0.2rem solid var(--buttonborder);
+    color: var(--textColorBody2);
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.DigitalTechnologiesButtonBody2MRA{
+    border: 0.2rem solid var(--buttonborder);
+    color: var(--textColorBody2);
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+/* ^^^ for all the button on the bottom part ^^^*/
+/* === For the enchance key competencies === */
+.childEnchanceDivBody2MRA{
+    display: flex;
+    flex-direction: column;
+    background-color:var(--secondaryBackgroundBody2);
+    color:var(--textColorBody2);
+    width:100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+.descriptionEnchanceBody2MRA {
+    resize: both; 
+    overflow: auto; 
+      max-width: 100%; 
+    max-height: 100%; 
+    margin-bottom: 1rem;
+}
+.descriptionEnchancePBody2MRA{
+display: flex;
+position:relative;
+text-align: justify;
+
+}
+/* ^^^ For the enchance key competencies ^^^ */
+
+
+/*  ==== For six Row on the page start from banner the what are you waiting for === */ 
+/* ==== whole container ==== */
+.classDivConatinerBody2MRA {
+display: flex;
+height: 25rem;
+width: 100%;
+align-items: center;
+justify-content: center;
+margin-bottom: 1rem;
+padding-left: 3rem;
+padding-right: 3rem;
+padding-bottom: 2rem;
+
+background-color:var(--backgroundColorBody2);
+}
+
+/*==== Left Part photos === */
+.classRoomPhoto{
+    width: 45%;
+    height: 350px;
+    resize: both; 
+   overflow: auto; 
+     max-width: 100%; 
+   max-height: 100%; 
+ 
+}
+
+/* === container right side === */
+.classroomInquiryBody2RightMRA{
+width: 60%;
+padding-left: 7rem;
+
+
+}
+/* right details */
+.waitingH1{
+    font-size: 2rem;
+   }
+.startH1{
+    font-size: 1.5rem;
+   }
+.informationP{
+    font-size: 1rem;
+}
+/* === Button Container Style  === */
+.btnDivBody2classroomMRA{
+    margin-top: 3rem;
+    display: flex;
+    width: 100%;
+
+}
+
+
+
+.SignUpButtonBody2MRA{
+    cursor: pointer;
+    background-color: var(--buttoncolor);
+    outline: none;
+    padding: 0rem 0.5rem;
+    margin: 0rem 1rem;
+    height: 2rem;
+    color: var(--textColorbutton);
+    width: 150px;
+    border-radius: 0.5rem;
+    left:0;
+    font-size: 1rem;
+}
+}
+
+/* === Big Screen === */
+
+@media only screen and (min-width: 1200px){
+    /*  === container of body 2 === */
+   .parentDivBody2MRA{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       width:100%;
+       height: 25rem;
+       background-color: var(--backgroundColorBody2);
+       color: var(--textColorBody2);
+       margin-top: 24rem;
+       bottom: 2rem;
+      
+   }
+   /* === for both text at top / images and button below ===  */
+   .childDivBody2MRA {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width:90%;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   position: relative;
+   margin-left: 3rem;
+   font-size: 1rem;
+   flex-direction: row;
+   }
+   
+   /* === for both text at the top === */
+   .childH2Body2MRA{
+       display: flex;
+       margin-top: 5rem;
+       margin-bottom: 1rem;
+       position:relative;
+       justify-content: center;
+       align-items: center;
+       font-size: 1.3rem;
+       width: 80%;
+      
+   }
+   .childDivImageBody2MRA {
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    flex-direction: row;
+    
+    }
+    /*===== images ==== */
+    .imgCreativity{
+        height:200px;
+        width:250px;
+        margin-right: 30px;
+        resize: both; 
+       overflow: auto; 
+       max-width: 100%; 
+       max-height: 100%;
+       border-radius: 10px;
+    }
+   
+    .imgCritical{
+        height:200px;
+        width:250px;
+        margin-right: 30px;
+        resize: both; 
+       overflow: auto; 
+       max-width: 100%; 
+       max-height: 100%;
+       border-radius: 10px;
+       margin-top: 10px;
+    }
+    .imgCommunication{
+        height:200px;
+        width:250px;
+        margin-right: 30px;
+        resize: both; 
+       overflow: auto; 
+       max-width: 100%; 
+       max-height: 100%;
+       border-radius: 10px;
+       margin-top: 10px;
+    }
+    .imgTechnology{
+        height:200px;
+        width:250px;
+        margin-right: 30px;
+        resize: both; 
+       overflow: auto; 
+       max-width: 100%; 
+       max-height: 100%;
+       border-radius: 10px;
+    }
+   
+   /* ====for all the button on the bottom part===== */
+   .LearningPathwaysButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       margin-right: 2rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 1rem;
+
+   }
+   
+   .IR4ButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 2rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 1rem;
+
+   }
+   .KeyCompetenciesButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 2rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 1rem;
+
+   }
+   .DigitalTechnologiesButtonBody2MRA{
+       border: 0.2rem solid var(--buttonborder);
+       color: var(--textColorBody2);
+       border-radius: 0.3rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 2rem;
+       height: 2rem;
+       cursor: pointer;
+       font-size: 1rem;
+
+   }
+   /* ^^^ for all the button on the bottom part ^^^*/
+   /* === For the enchance key competencies === */
+   .childEnchanceDivBody2MRA{
+       display: flex;
+       flex-direction: column;
+       background-color:var(--secondaryBackgroundBody2);
+       color:var(--textColorBody2);
+       width:100%;
+       padding-left: 3rem;
+       padding-right: 3rem;
+       padding-top: 2rem;
+       margin-bottom: 3rem;
+       justify-content: center;
+       font-size: 1rem;
+   }
+   .descriptionEnchanceBody2MRA {
+   display: flex;
+   position: relative;
+    height: 25rem;
+    width: 100%;
+   resize: both; 
+   overflow: auto; 
+     max-width: 100%; 
+   max-height: 100%; 
+  
+   }
+   .descriptionEnchancePBody2MRA{
+   display: flex;
+   position:relative;
+    width: 100%;
+
+   }
+   /* ^^^ For the enchance key competencies ^^^ */
+   
+   
+   /*  ==== For six Row on the page start from banner the what are you waiting for === */ 
+   /* ==== whole container ==== */
+   .classDivConatinerBody2MRA {
+   display: flex;
+   height: 25rem;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   padding-left: 3rem;
+   padding-right: 3rem;
+   padding-bottom: 2rem;
+   flex-direction: row;
+   background-color:var(--backgroundColorBody2);
+   }
+   
+   /*==== Left Part photos === */
+   .classRoomPhoto{
+       width: 50%;
+       height: 350px;
+       resize: both; 
+      overflow: auto; 
+        max-width: 100%; 
+      max-height: 100%; 
+    
+   }
+   
+   /* === container right side === */
+   .classroomInquiryBody2RightMRA{
+   width: 60%;
+   padding-left: 7rem;
+   
+   }
+   /* right details */
+   .waitingH1{
+    font-size: 2rem;
+   }
+   .startH1{
+    font-size: 1.5rem;
+    
+   }
+   .informationP{
+    font-size: 1rem;
+
+   }
+   /* === Button Container Style  === */
+   .btnDivBody2classroomMRA{
+       margin-top: 3rem;
+       display: flex;
+       width: 100%;
+   
+   }
+   
+   
+   
+   .SignUpButtonBody2MRA{
+    cursor: pointer;
+    background-color: var(--buttoncolor);
+    outline: none;
+    padding: 0rem 0.5rem;
+    margin: 0rem 1rem;
+    height: 2rem;
+    color: var(--textColorbutton);
+    width: 180px;
+    border-radius: 0.5rem;
+    left:0;
+    font-size: 1.2rem;
+   }
+   }

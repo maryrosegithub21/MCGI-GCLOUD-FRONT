@@ -1,0 +1,172 @@
+
+/* === Container of the whole NavBar === */
+header {
+    display: flex;
+    align-items : center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color: var(--textMainColor);
+    bottom: 0rem;
+    /* z-index: 1100; */
+    /* position: relative; */
+    transition: background-color 0.3s ease; /* Transition for smooth background change */
+    
+}
+
+/* === Center Part of the NavBar */
+nav a{
+    margin:0 2rem;
+    color: var(--secondaryColor);
+    text-decoration: none;
+}
+nav p{
+    margin:0 2rem;
+    color: var(--secondaryColor);
+    text-decoration: none;
+}
+nav a:hover{
+    color: var(--textColor);
+}
+.MenuNav {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* === Button when the screen is small max of 1024 === */
+.OpenCloseButton {
+  display: none;
+}
+
+/* === Header Right Part Style to make it two layers === */
+.headerNavRight {
+  display: grid;
+  grid-template-columns: (1, 2fr);
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.headerUlRight{
+    display:flex;
+    justify-content: start;
+    position:relative;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.headerDivRight{
+    display: grid;
+    grid-template-columns: (1, 1fr); 
+    margin:5px 20px;
+    padding: 2px 5px;
+}
+.headerLang{
+    position:relative;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    color: var(--secondaryColor);
+}
+
+
+.headerLiRight {
+  padding: 0px 0px;
+  margin: 0px 5px;
+  cursor: pointer;
+  outline: none;
+  color: var(--secondaryColor);
+  width: 120px;
+height: 2rem;
+  width: 200px;
+  background-color: var(--textColorbutton);
+  border: 0;
+  font-size: 1rem;
+}
+
+
+/* === for small screen max 1024 === */
+@media only screen and (max-width: 1024px){
+    /* === style of button when it is in the small screen 1024 below === */
+    .OpenCloseButton{
+        display: block;
+        position: absolute;
+        right: 1rem;
+        cursor: pointer;
+        height:2rem;
+        width:2rem;
+
+    }
+
+    /* ===  style of menu when it is in the small screen 1024 below === */
+    .MenuNav{
+
+        position: fixed;
+        top:-100%;  /* ==== to hide menu when screen small === */
+        /* margin-top: ; */
+        left: 0;
+        right:0;
+        height: 25rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* gap: 1rem; */
+        z-index: 10;
+      padding-top: 8rem;
+      transition: top 1s;
+      margin-top: 5rem;
+      background-color: blue; 
+     
+    }
+    .nav{
+        margin-top: 10;
+    }
+    .HeaderNavbar{
+        background-color: var(--mainColor);
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+
+    }
+    .headerDivRight{
+        position: fixed;
+        padding-top: 10rem;
+        left: 0;
+        right:0;
+        top:-100%;  /* ==== to hide menu when screen small === */
+        height: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: top 1s;
+        z-index: 10;
+        margin-top: 5rem;
+        background-color: blue; /* Blue background for the right div */
+    }
+    nav a{
+        font-size: 1.5rem;
+    }
+    nav p{
+        font-size: 1.5rem;
+    }
+    nav h5{
+        font-size: 1.5rem;
+    }
+   
+    /* === to pull the menu to show in the screen === */
+    .active {
+        top: 0;
+
+    }
+   
+}
+/* ^^^ For small screen ^^^ */

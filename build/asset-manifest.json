@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.87a09f88.css",
+    "main.js": "/static/js/main.b5aea1ea.js",
+    "static/media/quote3.png": "/static/media/quote3.1badf6d539728744e08a.png",
+    "static/media/quote4.png": "/static/media/quote4.f9d0d70098c9c55fd23f.png",
+    "static/media/quote1.png": "/static/media/quote1.2bdb7a73e63c161ff81d.png",
+    "static/media/Fiesta 3.png": "/static/media/Fiesta 3.55cdb9da3eb2be2965b6.png",
+    "static/media/free4.png": "/static/media/free4.946ff633d80be36888f0.png",
+    "static/media/free2.png": "/static/media/free2.bd17e77430dee3048916.png",
+    "static/media/Fiesta 2.png": "/static/media/Fiesta 2.c31ae37a7c2e47b3b8ac.png",
+    "static/media/quote2.png": "/static/media/quote2.bf4b3613c51254066a10.png",
+    "static/media/Fiesta.png": "/static/media/Fiesta.adb0f4a45c0271346768.png",
+    "static/media/Fiesta 4.png": "/static/media/Fiesta 4.93f07f501ee05e51e0c3.png",
+    "static/media/free3.png": "/static/media/free3.c591ed24219f4813481d.png",
+    "static/media/fiesta.png": "/static/media/fiesta.d6bb3e6a0c522c4e4b96.png",
+    "static/media/login-logo.png": "/static/media/login-logo.d6bb3e6a0c522c4e4b96.png",
+    "static/media/legacy.png": "/static/media/legacy.58d3c6920ed177172d32.png",
+    "static/media/free1.png": "/static/media/free1.63dd17c7747627ce0671.png",
+    "static/media/mcgi-logo.png": "/static/media/mcgi-logo.f0989adfc9b5bdffa857.png",
+    "index.html": "/index.html",
+    "main.87a09f88.css.map": "/static/css/main.87a09f88.css.map",
+    "main.b5aea1ea.js.map": "/static/js/main.b5aea1ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87a09f88.css",
+    "static/js/main.b5aea1ea.js"
+  ]
+}
