@@ -2,6 +2,9 @@
 mcgifeastprinting-67f8a9bfbbd4.json
 # production
 /build
+build/
+dist/
+public/
 
 # Logs
 logs
