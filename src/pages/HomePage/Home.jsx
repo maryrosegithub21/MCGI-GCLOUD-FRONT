@@ -15,13 +15,6 @@ export default function Home() {
 <Slide />
 <Welcome />
 <Footer />
-{/* <AiChat isVisible={isChatVisible} onClose={handleCloseChat} />
-      {!isChatVisible && (
-        <button onClick={handleShowChat} className={styles.showChatButton}>
-          Chat with us
-        </button>
-      )} */}
-
 <ChatBot />
 
    </div>
