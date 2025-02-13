@@ -17,7 +17,7 @@ const ChatBot = () => {
         setLoading(true); // Start loading
 
         try {
-            const response = await fetch('/api/gemini-chat', {
+            const response = await fetch('https://backend-dot-mcgi-app-450700.uc.r.appspot.com/api/gemini-chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
