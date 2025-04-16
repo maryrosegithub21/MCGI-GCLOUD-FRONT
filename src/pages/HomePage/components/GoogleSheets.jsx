@@ -11,20 +11,18 @@ const GoogleSheets = () => {
   const [selectedRowIndex, setSelectedRowIndex] = useState(null);
   const [noDataFound, setNoDataFound] = useState(false);
 
-  const API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
   const SPREADSHEET_ID = process.env.REACT_APP_SPREADSHEET_ID;
   const RANGE = 'RAW FORM DATA!A2:X';
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${RANGE}?key=${API_KEY}`;
-        const response = await axios.get(url);
-        const allData = response.data.values;
+        const response = await axios.get('/api/get-sheets-data');
+        const allData = response.data.data;
 
         if (allData && allData.length > 0) {
-        const filteredColumns = allData.map(row => row.slice(0, 16));
-        setData(filteredColumns);
+          const filteredColumns = allData.map(row => row.slice(0, 16));
+          setData(filteredColumns);
         } else {
           setData([]);
           console.warn('No data found in the specified range.');
@@ -35,7 +33,7 @@ const GoogleSheets = () => {
     };
 
     fetchData();
-  }, [API_KEY, SPREADSHEET_ID, RANGE]);
+  }, [SPREADSHEET_ID, RANGE]);
 
   const handleSearch = () => {
     const query = searchQuery.toLowerCase().trim();
@@ -44,12 +42,9 @@ const GoogleSheets = () => {
       return;
     }
 
-    // const filtered = data.filter(row =>
-    //   row[1].toLowerCase().includes(query) || row[2].toLowerCase().includes(query)
-    // );
     const filtered = data.filter(row =>
       row.some(cell =>
-        String(cell).toLowerCase().includes(query) // Convert cell to string before checking
+        String(cell).toLowerCase().includes(query)
       )
     );
 
@@ -74,7 +69,6 @@ const GoogleSheets = () => {
     const lastName = selectedRowData[2];
     if (window.confirm(`Print information for ${lastName}?`)) {
       const rowDataToPass = {
-        // ... (data to pass to PDF generation)
         date: selectedRowData[0],
         firstName: selectedRowData[1],
         lastName: selectedRowData[2],
@@ -112,17 +106,16 @@ const GoogleSheets = () => {
     <div>
       <h1>Members Church Of God Feast Guest Information</h1>
       <div className={styles.buttonContainer}>
-      <input
-        type="text"
-        value={searchQuery}
-        onChange={e => setSearchQuery(e.target.value)}
-        placeholder="Search by First/Last Name"
-        className={styles.myInput}
-      />
-      <button  className={styles.myButton} onClick={handleSearch}>Search</button>
-      <button  className={styles.myButton} onClick={handlePassToGoogleDocs}>Print Data</button>
+        <input
+          type="text"
+          value={searchQuery}
+          onChange={e => setSearchQuery(e.target.value)}
+          placeholder="Search by First/Last Name"
+          className={styles.myInput}
+        />
+        <button className={styles.myButton} onClick={handleSearch}>Search</button>
+        <button className={styles.myButton} onClick={handlePassToGoogleDocs}>Print Data</button>
       </div>
-      
 
       {noDataFound && <h1>No Data Found</h1>}
 
