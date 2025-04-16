@@ -1,0 +1,23 @@
+runtime: nodejs20  # Ensure you are using a supported Node.js version
+
+instance_class: F1
+
+automatic_scaling:
+  target_cpu_utilization: 0.65
+  min_instances: 1
+  max_instances: 5
+
+handlers:
+  - url: /static
+    static_dir: build/static
+
+  - url: /(.*\.(json|ico|js|css|png|jpg|svg|woff|woff2|ttf))
+    static_files: build/\1
+    upload: build/.*\.(json|ico|js|css|png|jpg|svg|woff|woff2|ttf)
+
+  - url: /.*
+    static_files: build/index.html
+    upload: build/index.html
+
+env_variables:
+  NODE_ENV: production

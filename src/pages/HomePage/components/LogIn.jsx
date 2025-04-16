@@ -38,7 +38,7 @@ export default function LogIn() {
     }
 
     try {
-      const response = await fetch("http://localhost:8080/api/login", {
+      const response = await fetch("https://backend-dot-mcgi-app-450700.uc.r.appspot.com/api/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: emailLogin, password: passwordLogin, churchid: churchid }),
