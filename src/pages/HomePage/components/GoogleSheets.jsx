@@ -605,7 +605,8 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { PDFDocument, rgb } from 'pdf-lib';
-import mcgiPdf from '../../../assets/mcgi.pdf'; // Import the PDF file
+
+import mcgiPdf from '../../../assets/MCGIFREE.pdf'; // Import the PDF file
 import styles from './GoogleSheets.module.css';
 
 const GoogleSheets = () => {
