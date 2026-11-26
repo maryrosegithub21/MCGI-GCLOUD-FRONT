@@ -1,4 +1,4 @@
-runtime: nodejs20  # Ensure you are using a supported Node.js version
+runtime: nodejs22  # Ensure you are using a supported Node.js version
 
 instance_class: F1
 
