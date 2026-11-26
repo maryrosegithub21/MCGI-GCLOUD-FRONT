@@ -5,7 +5,7 @@ import HeroBanner from '../HomePage/components/HeroBanner.jsx';
 import Welcome from '../HomePage/components/Welcome.jsx';
 import Slide from '../HomePage/components/SlideShowMain.jsx';
 import Footer from '../../common/Footer.jsx'
-// import ChatBot from './components/ChatBot.jsx';
+
 
 export default function Home() { 
    return (
@@ -15,7 +15,7 @@ export default function Home() {
 <Slide />
 <Welcome />
 <Footer />
-// <ChatBot />
+
 
    </div>
   )
